@@ -1,0 +1,6 @@
+# Copyright (c) 2021 Yonatan Schachter
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_YD_2040_16MB
+	bool "Raspberry Pi Pico YD-2040 16Mbyte Edition"
+	depends on SOC_RP2040
